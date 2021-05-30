@@ -1,0 +1,45 @@
+{       
+        "id_1":"article_1",
+        "name_1":"Sac en bandoulière",
+        "description_1":"Sac en bandoulière effet cuir avec motif Poudlard. Détails brodés et patches.",
+        "img_1":"./img/photo/sac.jpeg",
+        "unit_price_1":"75€",
+        "available_1":"True",
+
+        "id_2":"article_2",
+        "name_2":"Assiettes",
+        "description_2":"Assiettes Harry Potter aux motifs des quatre maisons de Pourdlard.",
+        "img_2":"img/photo/assiettes.jpeg",
+        "unit_price_2":"30€",
+        "available_2":"True",
+
+        "id_3":"article_3",
+        "name_3":"Carte du Maraudeur",
+        "description_3":"Linge de lit réversible. Exclusivité EMP.",
+        "img_3":"img/photo/carte_du_maraudeur.jpeg",
+        "unit_price_3":"45€",
+        "available_3":"False",
+
+        "id_4":"article_4",
+        "name_4":"Bague de Salazar Serpentard",
+        "description_4":"Horcruxe de... Celui dont on ne doit pas prononcer le nom.",
+        "img_4":"img/photo/horcruxe.jpeg",
+        "unit_price_4":"75€",
+        "available_4":"True",
+        
+        "id_5":"article_5",
+        "name_5":"Retourneur de temps",
+        "description_5":"Retourneur de temps utilisé par Hermione Granger dans la saga Harry Potter.",
+        "img_5":"img/photo/retourneur_de_temps.jpeg",
+        "unit_price_5":"75€",
+        "available_5":"True",
+
+        "id_6":"article_6",
+        "name_6":"Polyjuice Potion",
+        "description_6":"Verre que vous pourrez remplir avec toutes vos potions.",
+        "img_6":"img/photo/verre.jpeg",
+        "unit_price_6":"15€",
+        "available_6":"True"
+
+}
+
