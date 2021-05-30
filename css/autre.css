@@ -1,0 +1,105 @@
+/* variable */
+:root {
+	--grid-gap: 20px;
+}
+
+/* photo */
+#photo {
+	height: calc( 100vh - var( --navbar-height ) );
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	row-gap: 30px;
+	align-items: center;
+	background-image: url("../img/maison/blasonhogwarts.jpg");
+    background-color: #fff;
+    opacity: 80%;
+	background-size: cover;
+	background-position: center center;
+	color: #fff
+}
+#photo h1 {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}
+#photo h2 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#photo a {
+	color: inherit;
+}
+
+#blason P{
+    margin-left: 10px;
+}
+#maison{
+    display: grid;
+    padding: 10px var( --global-horizontal-padding );
+    gap: var( --grid-gap );
+    text-align: justify;
+    box-shadow: gray;
+    padding-top: 50px;
+	padding-bottom: 50px;
+}
+#maison section h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5em;
+    font-family: Satisfy;
+}
+#maison section img{
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.description{
+    padding: 1.5em;
+    box-shadow: 10px 10px 10px rgba(180, 180, 180, 0.663);
+    background-color: rgb(248, 248, 248);
+}
+.panier {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Smartphone */
+@media screen and ( max-width: 600px ) {
+	#blason img{
+        height: 200px
+    }
+    #maison{
+        grid-template-columns: 1fr;
+    }
+    #maison section img{
+        height: 75px;
+    }
+    
+}
+
+/* Desktop */
+@media screen and ( min-width: 601px ) {
+	
+    #maison{
+        grid-template-rows: repeat(2,minmax(0,1fr));
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        
+    }
+    #maison section img{
+        height: 125px;
+    }
+}
+
+/* Ultra-Wide */
+@media screen and ( min-width: 1200px ) {
+    #maison{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(1,minmax(0,1fr));
+    }
+}
